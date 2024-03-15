@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Women's clothing</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="left">
+          <img class="hamburger" src="img/burger.png" alt="" />
+          <div class="links">
+            <div class="menu">
+              <ul>
+                <li><a href="#">TRENDS</a></li>
+                <li><a href="#">COLLECTIONS</a></li>
+                <li><a href="#">DESIGNERS</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <ul>
+            <li>SEARCH</li>
+            <li><img src="img/search.svg" alt="" /></li>
+            <li><img src="img/cart.png" alt="" /></li>
+            <li><img src="img/avatar.png" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-picture">
+        <div class="season-text">
+          <h1>NEW</h1>
+          <h2>SEASON</h2>
+          <h3>LOOKS</h3>
+        </div>
+        <div class="auntie">
+          <img src="img/main picture.png" alt="" />
+        </div>
+        <div class="arrow">
+          <img src="img/prev.png" alt="" />
+          <img src="img/next.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="season-btn">
+      <button class="spring">SPRING</button>
+      <button class="summer">SUMMER</button>
+      <button class="autumn">AUTUMN</button>
+      <button class="winter">WINTER</button>
+    </div>
+    <div class="image-grid">
+      <div>
+        <img
+          class="image span-1"
+          src="img/summer/picture 1.png"
+          alt="Portrait 1"
+        />
+        <img
+          class="image span-1"
+          src="img/summer/picture 2.png"
+          alt="Portrait 1"
+        />
+        <img
+          class="image span-3"
+          src="img/summer/picture 3.png"
+          alt="Portrait 1"
+        />
+      </div>
+      <div>
+        <img
+          class="image span-3"
+          src="img/summer/picture 4.png"
+          alt="Portrait 1"
+        />
+        <img
+          class="image span-1"
+          src="img/summer/picture 5.png"
+          alt="Portrait 1"
+        />
+        <img
+          class="image span-1"
+          src="img/summer/picture 6.png"
+          alt="Portrait 1"
+        />
+      </div>
+      <div>
+        <img
+          class="image span-1"
+          src="img/summer/picture 7.png"
+          alt="Portrait 1"
+        />
+        <img
+          class="image span-1"
+          src="img/summer/picture 8.png"
+          alt="Portrait 1"
+        />
+        <img
+          class="image span-2"
+          src="img/summer/picture 9.png"
+          alt="Portrait 1"
+        />
+        <img
+          class="image span-1"
+          src="img/summer/picture 10.png"
+          alt="Portrait 1"
+        />
+      </div>
+    </div>
+    <div class="load-more">
+      <button>LOAD MORE CLOTHES</button>
+    </div>
+    <div class="trends">
+      <div class="img">
+        <img src="img/summer/trends.png" alt="" />
+      </div>
+      <div class="headline">
+        <h1>TOP 20 TRENDS FOR</h1>
+        <h2>SPRING/SUMMER</h2>
+        <div class="highlights">
+          <p>
+            With Seventies influences from Saturday night fever to hippy deluxe,
+            a khaki nod to military style alongside nautical accents,
+            experiments with transparency, patchworks of vintage prints and mix
+            & match approach to volume and fabric, for Summer 2015 we're set to
+            see contrast take center stage. Stay a step ahead as we present a
+            round-up of the runaway trends set to take Spring/Summer 2015 by
+            storm.
+          </p>
+          <div class="dots">
+            <div class="dot-on"></div>
+            <div class="dot-off"></div>
+            <div class="dot-off"></div>
+          </div>
+        </div>
+        <div class="more"><button>MORE</button></div>
+      </div>
+    </div>
+    <div class="sponsor">
+      <img src="img/sponsor1.png" alt="" />
+      <img src="img/sponsor2.png" alt="" />
+      <img src="img/sponsor3.png" alt="" />
+      <img src="img/sponsor4.png" alt="" />
+      <img src="img/sponsor5.png" alt="" />
+      <img src="img/sponsor6.png" alt="" />
+    </div>
+    <div class="footer">
+      <div class="footer-links">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+        <h1>Image rights belong to their respective owners.</h1>
+      </div>
+      <div class="social">
+        <div class="social-img">
+          <img src="img/pinterest.png" alt="" />
+          <img src="img/facebook.png" alt="" />
+          <img src="img/twitter.png" alt="" />
+        </div>
+        <div class="mails">
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="Get discount codes in your inbox"
+          />
+          <button>SUBSCRIBE</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    window.onresize = () => {
+      window.location.reload();
+    };
+    const hamburger = document.querySelector(".hamburger");
+    const menu = document.querySelector(".links");
+    const html = document.querySelector("html");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      menu.classList.toggle("active");
+      html.classList.toggle("active");
+    });
+  </script>
+</html>
