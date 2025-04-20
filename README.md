@@ -2,6 +2,8 @@
 
 A responsive e-commerce website showcasing women's fashion collections across different seasons.
 
+![Screenshot 2025-04-20 121605](https://github.com/user-attachments/assets/3de3fb3f-b914-4ed3-b091-8d8eda04eb4f)
+
 ## Project Overview
 
 This project is a front-end implementation of a fashion retail website focused on women's clothing. It features a modern, responsive design that adapts to various screen sizes, with special attention to showcasing seasonal collections through an elegant image grid display.
